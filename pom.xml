@@ -95,7 +95,7 @@
                 <goal>java</goal>
               </goals>
               <configuration>
-                <mainClass>edu.eci.cvds.patterns.archetype.App</mainClass> <!-- Cambia esto por la clase correcta -->
+                <mainClass>edu.eci.cvds.patterns.archetype.App</mainClass> 
               </configuration>
             </execution>
           </executions>
