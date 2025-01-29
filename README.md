@@ -1,5 +1,7 @@
 # LAB2_CVDS
-
+## INTEGRANTES
+-Juan David Zambrano 
+-Allan Contreras 
 
 ![alt text](resources/image.png)
 
