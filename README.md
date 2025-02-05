@@ -175,7 +175,40 @@
  |                       |                                                                                            |
  |                       |                                     
  |                       |                                                                                            |
-         
+
+
+
+
+# Pruebas 
+
+     Ejecutamos múltiples veces la clase ShapeMain, usando el plugin exec de maven con los siguientes parámetros y 
+      verificamos  
+      la salida en consola para cada una:
+
+
+-  sin parámetros:
+
+  ![alt text](resources/image-23.png)
+  
+     No hay parámetros, el programa detecta la falta de argumentos y muestra el mensaje de error.
+
+- Parámetro: qwerty:
+   ![alt text](resources/image-24.png)
+
+      qwerty no está en la enumeración RegularShapeType, por lo que el try-catch maneja la excepción y muestra el mensaje 
+       de error.
+ - Parámetro: pentagon:
+    ![alt text](resources/image-25.png)
+
+       pentagon en minúsculas no coincide exactamente con Pentagon en RegularShapeType, por lo que el programa lanza un 
+        IllegalArgumentException.
+
+   
+ - Parámetro: Hexagon:
+    ![alt text](resources/image-26.png)
+
+        Hexagon coincide con un valor válido en RegularShapeType, por lo que el programa crea la forma y muestra el mensaje 
+          correcto.
 
 
 
