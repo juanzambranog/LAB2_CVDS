@@ -90,7 +90,7 @@
             <artifactId>exec-maven-plugin</artifactId>
             <version>3.1.0</version>
             <configuration>
-                <mainClass>edu.eci.cvds.patterns.archetype.App</mainClass>
+               <mainClass>edu.eci.cvds.patterns.shapes.ShapeMain</mainClass>
             </configuration>
         </plugin>
 
