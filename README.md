@@ -137,3 +137,53 @@
 - ShapeFactory.java
 
     ![alt text](resources/image-22.png)
+
+
+# ¿Cuál fábrica hiciste?  
+
+      implementamos el patrón fábrica  Simple Factory, ya que hay una única clase ShapeFactory encargada de crear 
+       instancias de Shape, No usamos herencia ni una interfaz para definir la creación de objetos,
+       En este caso Simple Factory es suficiente porque solo estamos creando diferentes figuras geométricas sin que haya 
+       muchas variaciones en el proceso de creación. hicimos  uso de la instrucción switch-case de Java y usando las 
+      enumeraciones.
+      
+#  ¿Cuál es mejor?
+
+         Depende del caso de uso. Aquí una comparación:
+
+
+ | Comando               | Descripción                                                                                |
+ |-----------------------|--------------------------------------------------------------------------------------------|
+ | `Simple Factory`      | Fácil de implementar y entender                                                            |
+ |                       | No es muy flexible si queremos extender las clases en el  futuro                           |     
+ |                       | mejor para problemas pequeños con pocas variaciones en la creación de objetos.             |     
+ |                       |                                                                                            |      |                       |                                                                                            |
+ |                       |                                                                                            |
+ |                       |                                                                                            |
+ |                       |                                                                                            |      |                       |                                                                                            |
+ |                       |                                                                                            |
+ | `Factory Method`      | Usa herencia para definir la creación en subclases                                         |
+ |                       | Mayor flexibilidad si hay muchas variaciones en la creación                                |
+ |                       | Más complejo, requiere definir clases abstractas y subclases                               |   
+ |                       | Mejor si cada subclase tiene una forma diferente de construir los objetos.                 |
+ |                       |                                                                                            |      |                       |                                                                                            |
+ |                       |                                                                                            |
+ | `Abstract Factory`    | Permite crear familias de objetos relacionados sin especificar sus clases concretas        |
+ |                       | Útil  cuando hay múltiples variantes de objetos que deben funcionar juntos                 |
+ |                       | es Mucho más complejo  de implementar                                                      | 
+ |                       | Mejor si hay muchas familias de objetos que deben cambiar juntas                           |
+ |                       |                                                                                            |
+ |                       |                                     
+ |                       |                                                                                            |
+         
+
+
+
+
+
+
+
+
+
+
+  
